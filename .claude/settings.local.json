@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//private/tmp/**)",
+      "Bash(unzip -o \"/Users/rezwan/Downloads/Rezwan_Islam_Nahid_CV.docx\" -d cv_extract)",
+      "Bash(grep -v '^$')",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(mkdir -p /Users/rezwan/Desktop/Portfolio/public && cp /Users/rezwan/Downloads/Rezwan_Islam_Nahid_CV.pdf /Users/rezwan/Desktop/Portfolio/public/Rezwan_Islam_Nahid_CV.pdf && ls -la /Users/rezwan/Desktop/Portfolio/public/)",
+      "Bash(brew list *)"
+    ]
+  }
+}
