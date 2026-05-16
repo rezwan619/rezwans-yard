@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import Hero from './components/Hero'
 import Stats from './components/Stats'
 import About from './components/About'
@@ -24,6 +25,7 @@ export default function App() {
         <Toolkit />
       </div>
       <Footer />
+      <Analytics />
     </main>
   )
 }
