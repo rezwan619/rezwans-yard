@@ -137,7 +137,7 @@ export default function Features() {
               },
               {
                 title: '~40% faster production',
-                desc: 'Shipped on real client work at Loudface.',
+                desc: 'Proven on real client work.',
               },
             ]}
           />

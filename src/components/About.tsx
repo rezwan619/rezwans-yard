@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform, MotionValue } from 'framer-motion'
 import WordsPullUpMultiStyle from './WordsPullUpMultiStyle'
 
 const BODY_TEXT =
-  'Over the last six years, I have worked with clients across the UAE, UK, US, Australia, and Europe — shipping conversion-led websites in Figma for SaaS, Fintech, E-commerce, Education, Trading, and Hospitality brands.'
+  'Over the last six years, I have partnered with clients across the UAE, UK, US, Australia, and Europe — bringing deep UX/UI fundamentals to conversion-led product interfaces and websites in Figma for SaaS, Fintech, E-commerce, Education, Trading, and Hospitality brands.'
 
 interface AnimatedLetterProps {
   char: string
@@ -33,7 +33,7 @@ export default function About() {
     <section className="bg-black py-24 md:py-32 px-4 md:px-6">
       <div className="bg-[#101010] rounded-2xl md:rounded-[2rem] max-w-6xl mx-auto px-6 sm:px-10 md:px-16 py-20 md:py-28 text-center">
         <p className="text-primary text-[10px] sm:text-xs uppercase tracking-[0.25em] mb-8 md:mb-12">
-          Visual design
+          Product design
         </p>
 
         <WordsPullUpMultiStyle
@@ -41,11 +41,11 @@ export default function About() {
           segments={[
             { text: 'I am Rezwan Islam Nahid,', className: 'font-normal' },
             {
-              text: 'a senior web designer.',
+              text: 'a senior product designer.',
               className: 'italic font-serif font-normal',
             },
             {
-              text: 'I have skills in Figma, UX research, design systems, and conversion-focused design.',
+              text: 'With deep UX/UI expertise across Figma, UX research, design systems, prototyping, and conversion-focused product design.',
               className: 'font-normal',
             },
           ]}

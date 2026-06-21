@@ -65,9 +65,10 @@ export default function Hero() {
                 style={{ lineHeight: 1.2 }}
               >
                 Rezwan's yard is the working studio of Rezwan Islam Nahid — a
-                senior web designer crafting conversion-led websites in Figma
-                for e-commerce, SaaS, finance, and hospitality brands. Six years
-                of agency work, shipped under tight one-month timelines.
+                senior product designer with deep UX/UI expertise, crafting
+                conversion-led product interfaces and websites in Figma for
+                e-commerce, SaaS, finance, and hospitality brands. Six years of
+                agency work, shipped under tight one-month timelines.
               </motion.p>
 
               <motion.div
