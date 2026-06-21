@@ -27,7 +27,7 @@ export default function WordsPullUp({
         return (
           <motion.span
             key={i}
-            className="inline-block"
+            className="block"
             initial={{ y: 20, opacity: 0 }}
             animate={inView ? { y: 0, opacity: 1 } : {}}
             transition={{

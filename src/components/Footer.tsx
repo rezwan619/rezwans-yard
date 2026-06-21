@@ -18,7 +18,7 @@ const NAV = [
 
 export default function Footer() {
   return (
-    <footer className="bg-black px-4 md:px-6 pb-6">
+    <footer id="contact" className="bg-black px-4 md:px-6 pb-6">
       <div className="relative max-w-7xl mx-auto bg-[#0a0a0a] rounded-2xl md:rounded-[2rem] border border-white/5 overflow-hidden">
         <div className="px-6 sm:px-10 md:px-14 pt-14 md:pt-20 pb-10 md:pb-14">
           <motion.div

@@ -2,7 +2,13 @@ import { motion } from 'framer-motion'
 import { ArrowRight } from 'lucide-react'
 import WordsPullUp from './WordsPullUp'
 
-const NAV_ITEMS = ['Work', 'About', 'Process', 'Writing', 'Inquiries']
+const NAV_ITEMS = [
+  { label: 'Work', href: '#works' },
+  { label: 'About', href: '#about' },
+  { label: 'Process', href: '#process' },
+  { label: 'Toolkit', href: '#toolkit' },
+  { label: 'Contact', href: '#contact' },
+]
 
 export default function Hero() {
   return (
@@ -22,9 +28,9 @@ export default function Hero() {
         <nav className="absolute top-0 left-1/2 -translate-x-1/2 z-20 bg-black rounded-b-2xl md:rounded-b-3xl px-4 py-2 md:px-8">
           <ul className="flex items-center gap-3 sm:gap-6 md:gap-12 lg:gap-14">
             {NAV_ITEMS.map((item) => (
-              <li key={item}>
+              <li key={item.label}>
                 <a
-                  href="#"
+                  href={item.href}
                   className="text-[10px] sm:text-xs md:text-sm transition-colors"
                   style={{ color: 'rgba(225, 224, 204, 0.8)' }}
                   onMouseEnter={(e) =>
@@ -34,7 +40,7 @@ export default function Hero() {
                     (e.currentTarget.style.color = 'rgba(225, 224, 204, 0.8)')
                   }
                 >
-                  {item}
+                  {item.label}
                 </a>
               </li>
             ))}
@@ -46,9 +52,8 @@ export default function Hero() {
             <div className="col-span-12 lg:col-span-8">
               <WordsPullUp
                 text="Rezwan's yard"
-                className="text-[26vw] sm:text-[24vw] md:text-[22vw] lg:text-[20vw] xl:text-[19vw] 2xl:text-[20vw] font-medium leading-[0.85] tracking-[-0.07em]"
+                className="text-[13vw] font-medium leading-[0.85] tracking-[-0.07em]"
                 style={{ color: '#E1E0CC' }}
-                showAsterisk
               />
             </div>
 
