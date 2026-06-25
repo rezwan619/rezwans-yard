@@ -78,8 +78,8 @@ export default function Footer() {
                 </sup>
               </p>
               <p className="text-gray-500 text-xs sm:text-sm mt-3 max-w-sm">
-                The independent studio of Rezwan Islam Nahid — senior product
-                designer with deep UX/UI expertise, conversion-led, six years
+                The independent studio of Rezwan Islam Nahid — senior UX/UI
+                designer, conversion rate optimization specialist, six years
                 agency-trained.
               </p>
             </div>
